@@ -1,8 +1,6 @@
 package com.github.aoc
 
-import com.github.aoc.utils.InputDay2Problem2
-import com.github.aoc.utils.InputParser
-import com.github.aoc.utils.Result
+import com.github.aoc.utils.*
 
 fun main() {
     val input = InputParser.parseInput(InputDay2Problem2)

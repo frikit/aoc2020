@@ -1,8 +1,6 @@
 package com.github.aoc
 
-import com.github.aoc.utils.InputDay3Problem2
-import com.github.aoc.utils.InputParser
-import com.github.aoc.utils.Result
+import com.github.aoc.utils.*
 
 val input = InputParser.parseInput(InputDay3Problem2)
     .map { row -> row.repeat(100) }
