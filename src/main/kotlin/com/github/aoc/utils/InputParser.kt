@@ -2,9 +2,9 @@ package com.github.aoc.utils
 
 object InputParser {
 
-    fun parseInput(input: Inputs): List<String> {
+    fun parseInput(input: Inputs, pattern: String = "\n"): List<String> {
         val res = input.getInput()
-            .split("\n")
+            .split(pattern)
             .map { it.trim() }
 
         println(res)
